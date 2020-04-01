@@ -1,0 +1,80 @@
+body {
+    background-image: url("../img/bg.png");
+    
+}
+#titulo {
+    font-family: 'Chela One';
+    font-size: 80px;
+    text-align: center;
+}
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#jogador, #maquina {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    color: #000000;
+}
+#jogador {
+    background-color: #d5aaf1;
+}
+#maquina {
+    background-color: #f1caaa;
+}
+#versus {
+    font-family: 'Chela One';
+    font-size: 40px;
+    text-align: center;
+    width: 90px;
+}
+#nome-jogador, #nome-maquina {
+    font-family: 'Lilita One';
+    padding: 0;
+    margin: 0;
+}
+#nome-jogador {
+    text-align: left;
+}
+#nome-maquina {
+    text-align: right;
+}
+#pontos-jogador, #pontos-maquina {
+    position: absolute;
+    top: 10px;
+    font-size: 40px;
+    font-family: 'Chela One';
+}
+#pontos-jogador {
+    right: 20px;
+}
+ul#escolha-jogador , ul#escolha-maquina {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ }
+ul#escolha-jogador li, ul#escolha-maquina li {
+    display: inline;
+}
+ul#escolha-jogador li a, ul#escolha-maquina li a, ul#escolha-jogador li a.selecionado, ul#escolha-maquina li a.selecionado { 
+    opacity: .2;
+}
+ul#escolha-jogador li a:hover, ul#escolha-jogador li a.selecionado, ul#escolha-maquina li a.selecionado {
+    opacity: 1;
+}
+ul#escolha-jogador li a img, ul#escolha-maquina li a img {
+max-width: 120px;
+margin: 20px;
+}
+#mensagem {
+    background-color: #bcbcbc;
+    font-family: 'Lilita One';
+    border-radius: 5px;
+    margin: 25px 0px;
+    padding: 20px;
+}

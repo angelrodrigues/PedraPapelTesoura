@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Chela+One|Lilita+One&display=swap" rel="stylesheet">
+    <title>.: Pedra, Papel, Tesoura :. </title>
+</head>
+
+<body>
+    <div id="principal">
+        <h1 id="titulo"> PEDRA, PAPEL, TESOURA.</h1>
+        <div id="placar">
+            <div id="jogador">
+                <h2 id="nome-jogador">VOCÊ</h2>
+                <span id="pontos-jogador">0</span>
+                <ul id="escolha-jogador">
+                    <li> <a id="escolha-jogador-1" onclick="jogar(1)"> <img src="img/pedra.png"> </a></li>
+                    <li> <a id="escolha-jogador-2" onclick="jogar(2)"> <img src="img/papel.png"> </a></li>
+                    <li> <a id="escolha-jogador-3" onclick="jogar(3)"> <img src="img/tesoura.png"> </a></li>
+                </ul>
+            </div>
+            <div id="versus"> VS </div>
+            <div id="maquina">
+                <h2 id="nome-maquina">MÁQUINA</h2>
+                <span id="pontos-maquina">0</span>
+                <ul id="escolha-maquina">
+                    <li> <a id="escolha-maquina-1"> <img src="img/pedra.png"> </a> </li>
+                    <li> <a id="escolha-maquina-2"> <img src="img/papel.png"> </a></li>
+                    <li> <a id="escolha-maquina-3"> <img src="img/tesoura.png"> </a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="mensagem"> &nbsp; </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
